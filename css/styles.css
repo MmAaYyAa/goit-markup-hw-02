@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: var(--main-color)
+    color: #434455;
 }
 
 .list{
@@ -22,7 +22,7 @@ body{
 
 .header-logo {
 
-    font-family: 'Raleway',sans serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
@@ -59,7 +59,7 @@ body{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal
+    font-style: normal;
     
 }
 
@@ -123,9 +123,10 @@ body{
 .work-subtitle{
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.1;
+    line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: var(--title-color);
 }
 
@@ -139,12 +140,17 @@ body{
     background-color: #FFFFFF;
 }
 
+.team-item{
+    background-color: #FFFFFF;
+}
+
 .team-subtitle{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    text-align: center;
     color: var(--title-color);
 }
 
@@ -194,7 +200,7 @@ body{
 /*---------------PORTFOLIO---------------*/
 
 .button-item{
-    font-family: 'Roboto',sans serif;
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
